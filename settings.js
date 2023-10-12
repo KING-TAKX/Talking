@@ -164,13 +164,13 @@ global.mess = {
 
 
 //other
-global.pemilik = ['94715166712'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['94715166712'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
-global.pengguna = 'Dark Maker' // Your name ඔබේ නම 
+global.pemilik = ['263785192250'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
+global.premium = ['263785192250'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
+global.pengguna = 'KING-TAKX' // Your name ඔබේ නම 
 global.sessionName = 'session'
 global.prefix = ['#','!','.'] 
 global.sp = '👽'
-global.weem = 'QUEEN ELISA'
+global.weem = 'KING-TAKX-BOT'
 
 global.limitawal = {
     premium: "Infinity", 
