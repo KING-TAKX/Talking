@@ -29,7 +29,7 @@ const chalk = require('chalk')
 ⚙️ BOT SETTINGS  ⚙️
 */
 //👇 if you need seen massage use " true " , මැසේජ් සීන් කරන්න ඔනි නම් true දාන්න ඔනි නැත්තම් false දාන්න
-global.READ_MASSAGE = false
+global.READ_MASSAGE = true
 //👇 enable DISABLE Girls Voice Reply , Auto Voice Reply යවන්න ඔනි නම් true දාන්න 
 global.VOICE_REPLY = false
 //👇 Do you want show time on your bio use "true" want DISABLE use "false" , ස්වයං ක්‍රීය Bio එක ඔනි නම් true දාන්න
@@ -37,19 +37,19 @@ global.AUTO_BIO = false
 //👇 Inbox massage block PM block , ඉන්බොක් බ්ලොක් 
 global.INBOX_BLOCK = false
 //👇 Auto react  , ස්වයංක්‍රීය රියක්ට්
-global.AUTO_REACT = false
+global.AUTO_REACT = true
 //👇 Bad word Auto delete ( you must add bad words ) නරක වචන ඩිලීට් කිරීම , ඔබ විසින් වචන දැමිය යුතුය 
 global.ANTI_BADWORD = false
 //👇 Kick And Auto Delete Group link Senders , ස්මූහ ස්බැදි දමන අයව ඉවත් කරයි
 global.ANTI_G_LINK = false
 //👇 212 Number block
-global.NUMBER_212_BLOCK = false
+global.NUMBER_94_BLOCK = true
 //👇 Send Welcome ( true or false ) වෙල්කම් ගූඩ් බායි මැසේජ් යවන්න ඔනි නම් 
-global.SEND_WELCOME = process.env.SEND_WELCOME || false
+global.SEND_WELCOME = process.env.SEND_WELCOME || true
 //👇 Send block command message (true or false )
-global.BLOCK_CMD_MESSAGE_SEND = false
+global.BLOCK_CMD_MESSAGE_SEND = true
 //👇 Send Auto reply , sticker , voice Use true and costemize your own 
-global.AUTO_FUNCTION = false
+global.AUTO_FUNCTION = true
 //👇 Put Bot Offline
 global.BOT_OFFLINE = false
 //👇 Only PreFix [ true / false ]
@@ -76,15 +76,15 @@ global.DISABLE_COMMAND_MESSAGE_SEND = false
        ✨ BOT INFO SETTINGS ✨
 */
 // You Bots Owner Number 
-global.owner = ['94715166712'] 
+global.owner = ['26375192250','263780597112'] 
 //👇 Your Caption ( Image Video )
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝙴𝙻𝙸𝚂𝙰 ²⁰²³'
+global.cap = '𝐣𝐨𝐧𝐚𝐬 𝐡𝐢𝐠𝐡 𝐬𝐜𝐡𝐨𝐨𝐥 𝐥𝐞𝐚𝐫𝐧𝐞𝐫𝐬 𝐛𝐨𝐭'
 //👇 Your Bot Name
-global.botnma =  '𝐐𝐔𝚵𝚵𝚴 𝚵𝐋𝚰𝐒𝚫 𝚳𝐃 3 𝛁' 
+global.botnma =  '𝐓𝐀𝐊𝐔𝐍𝐃𝐀 𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐓𝐀𝐍𝐀𝐊𝐀 𝐊𝐀𝐍𝐉𝐔𝐌𝐀 𝐁𝐎𝐓' 
 //👇 Your name
-global.ownernma =  'ᴍ ʀ ⃞ ɴ ɪ ᴍ ᴀ' 
+global.ownernma =  '𝐓𝐀𝐊𝐔𝐍𝐃𝐀 𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐓𝐀𝐍𝐀𝐊𝐀 𝐊𝐀𝐍𝐉𝐔𝐌𝐀' 
 //👇 Sticker Author Name
-global.packname =  '𝙼𝚁 𝙽𝙸𝙼𝙰 𝙾𝙵𝙲' 
+global.packname =  '𝐓𝐀𝐊𝐔𝐍𝐃𝐀 𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐓𝐀𝐍𝐀𝐊𝐀 𝐊𝐀𝐍𝐉𝐔𝐌𝐀 𝐁𝐎𝐓' 
 //👇 Inbox Block Massage 
 global.INBOX_BLOCK_MSG = 'BLOCK !!!'
 //👇 Owner React Imoji
@@ -114,7 +114,7 @@ global.GOODBYE = process.env.GOODBYE || ``
 //👇 Good bye image
 global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
 //👇 DISABLE PM Block numbers
-global.NO_BLOCK = ["94715166712","94719574492"]
+global.NO_BLOCK = ["263785192250","263780597112"]
 //👇 DISABLE download words
 global.IMG_BLOCKER = ["xxx","sex","mia"]
 //👇 Open ai API Put Withouth "sk-" ( "sk-" අයින් කරල ඉතුරු ටික දාන්න )
@@ -122,7 +122,7 @@ global.CHATGPT_API = ''
 //👇 Sex  video Download Allowed Groups
 global.SEX_DOWNLOAD_GROUPS = ['120363147404508506@g.us']
 //👇 Your Bot Group Link
-global.GROUP_LINK = 'https://chat.whatsapp.com/Ih1udrdBNvX5xSu5mUVdql'
+global.GROUP_LINK = 'https://chat.whatsapp.com/IxTYudb4GvSAuvzRKE5ULH'
 /*
 
    🍃 OTHER 🍃
@@ -136,14 +136,14 @@ global.zenzapi = '01ABEB1E11'
 
 */
 global.mess = {
-    success: '✅ Done!',
+    success: '🇿🇼 Done!',
     admin: '*Only admins can use this command !*',
     botAdmin: '*Please admin the bot first !*',
     owner: '*Sorry, this command is only for the owner !*',
     group: '*This command can only be used in groups !*',
     private: '*This command can only be used in Inbox !*',
     bot: '*This command can only be used by bot number !*',
-    wait: '*♲ Please Wait ...*',
+    wait: '*🇿🇼 Please Wait ...*',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     BLOCK_CMD_MSG : '*⚠️ This Command is Block By Owner*',
     IMG_BLOCK : "This Word is Ban from image downloader",
@@ -153,7 +153,7 @@ global.mess = {
     BAD_DETECT : '',
     BLOCK : '',
     UNBLOCK : '',
-    KICK : '',
+    KICK : 'bye image',
     ADD : '',
     LEAVE : '',
     PROMOTE : '',
